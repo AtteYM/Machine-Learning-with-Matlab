@@ -54,11 +54,11 @@ for i = 1:20
 end
 
 %plotting data to see the patterns
-figure(3)
-plot3(height_male_cm,weight_male_kg,shoe_male_EU_size,'x');
-hold on;
-plot3(height_female_cm,weight_female_kg,shoe_female_EU_size,'rx');
-hold off;
+%figure(1)
+%plot3(height_male_cm,weight_male_kg,shoe_male_EU_size,'x');
+%hold on;
+%plot3(height_female_cm,weight_female_kg,shoe_female_EU_size,'rx');
+%hold off;
 
 %turn henkilot 1*20 array in to 20*1
 henkilot = henkilot';
